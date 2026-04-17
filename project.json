@@ -1,0 +1,31 @@
+{
+  "overview": "A premium multi-page handmade products eCommerce website with a warm, earthy aesthetic. Features a full shop with category filters, product detail pages with image galleries, artisan story page, customer reviews, and a working cart with checkout demo.",
+  "features": [
+    "6 pages: Home, Shop, Product Details, Our Story, Reviews, Contact",
+    "Cart sidebar with add/remove/quantity management",
+    "Wishlist with heart icon toggles on product cards",
+    "Product filters by category, price, and popularity",
+    "Artisan profiles and brand story page",
+    "Customer testimonials with star ratings",
+    "Instagram-style photo gallery on homepage",
+    "Featured collections section",
+    "Related products on product detail pages",
+    "Demo checkout form",
+    "Sticky header with cart count",
+    "Fully responsive mobile-first layout",
+    "Warm earthy palette: beige, cream, terracotta, sage green",
+    "Playfair Display headings + Lato body typography"
+  ],
+  "category": "ecommerce",
+  "tags": [
+    "handmade",
+    "ecommerce",
+    "boutique",
+    "shop",
+    "artisan",
+    "react",
+    "tailwind",
+    "multi-page"
+  ],
+  "last_updated": "2026-04-17T04:42:03.720Z"
+}

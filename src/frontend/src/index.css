@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Playfair Display", "Fraunces", serif;
+    --font-body: "Lato", "DM Sans", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+    --radius: 0.625rem;
+
+    --background: 0.99 0.02 90;
+    --foreground: 0.2 0 0;
+    --card: 0.98 0.01 90;
+    --card-foreground: 0.2 0 0;
+    --popover: 0.98 0.01 90;
+    --popover-foreground: 0.2 0 0;
+
+    --primary: 0.58 0.18 35;
+    --primary-foreground: 0.98 0.01 90;
+
+    --secondary: 0.64 0.13 150;
+    --secondary-foreground: 0.2 0 0;
+    --muted: 0.88 0.06 85;
+    --muted-foreground: 0.45 0 0;
+
+    --accent: 0.95 0.08 90;
+    --accent-foreground: 0.2 0 0;
+
+    --destructive: 0.55 0.18 25;
+    --destructive-foreground: 0.98 0.01 90;
+
+    --border: 0.92 0.04 85;
+    --input: 0.96 0.02 90;
+    --ring: 0.58 0.18 35;
+
+    --chart-1: 0.58 0.18 35;
+    --chart-2: 0.64 0.13 150;
+    --chart-3: 0.75 0.15 70;
+    --chart-4: 0.55 0.18 25;
+    --chart-5: 0.88 0.06 85;
+
+    --sidebar: 0.98 0.01 90;
+    --sidebar-foreground: 0.2 0 0;
+    --sidebar-primary: 0.58 0.18 35;
+    --sidebar-primary-foreground: 0.98 0.01 90;
+    --sidebar-accent: 0.88 0.06 85;
+    --sidebar-accent-foreground: 0.2 0 0;
+    --sidebar-border: 0.92 0.04 85;
+    --sidebar-ring: 0.58 0.18 35;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/assets/fonts/Fraunces.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("/assets/fonts/DMSans.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/assets/fonts/JetBrainsMono.woff2") format("woff2");
+  font-display: swap;
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .shadow-subtle {
+    @apply shadow-sm;
+  }
+
+  .shadow-elevated {
+    @apply shadow-md;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .hover-lift {
+    @apply transition-smooth hover:shadow-elevated hover:translate-y-[-2px];
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

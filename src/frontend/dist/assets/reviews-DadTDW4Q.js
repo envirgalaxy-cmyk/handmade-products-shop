@@ -1,0 +1,87 @@
+const reviews = [
+  {
+    id: "r1",
+    customerName: "Sarah M.",
+    location: "Portland, OR",
+    rating: 5,
+    title: "Absolutely stunning — worth every penny",
+    text: "I ordered the hammered gold hoops and they exceeded every expectation. The craftsmanship is exceptional — you can feel the care and skill that went into making them. I've received so many compliments and love telling people they're handmade. Will definitely be ordering more pieces.",
+    date: "March 12, 2025",
+    productName: "Hammered Gold Hoop Earrings",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+    verified: true
+  },
+  {
+    id: "r2",
+    customerName: "James R.",
+    location: "Austin, TX",
+    rating: 5,
+    title: "The candle set is a revelation",
+    text: "I was skeptical about paying more for handmade candles, but the Botanical Soy Candle Set changed my mind completely. The scent is nuanced and complex — not the synthetic punch you get from mass-market candles. The dried flowers pressed into the wax are genuinely beautiful. Already bought a second set as a gift.",
+    date: "February 28, 2025",
+    productName: "Botanical Soy Candle Set",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    verified: true
+  },
+  {
+    id: "r3",
+    customerName: "Elena T.",
+    location: "Brooklyn, NY",
+    rating: 5,
+    title: "My terracotta bowls are already my most-used kitchenware",
+    text: "The Mira Terracotta Bowl Set arrived beautifully wrapped, and opening them felt like opening a gift. The speckled glaze catches the light in the most wonderful way. I use them every morning for my oatmeal and they make even a simple breakfast feel special. The quality is exceptional.",
+    date: "March 5, 2025",
+    productName: "Mira Terracotta Bowl Set",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+    verified: true
+  },
+  {
+    id: "r4",
+    customerName: "Marcus L.",
+    location: "Chicago, IL",
+    rating: 4,
+    title: "Beautiful throw, exactly as pictured",
+    text: "The linen throw blanket is gorgeous and drapes beautifully over the couch. The natural oat color is warmer and richer than expected — in a good way. It's a bit rougher than I anticipated (it's linen after all) but is softening beautifully with each wash. Excellent quality for the price.",
+    date: "January 19, 2025",
+    productName: "Linen & Cotton Throw Blanket",
+    verified: true
+  },
+  {
+    id: "r5",
+    customerName: "Priya N.",
+    location: "San Francisco, CA",
+    rating: 5,
+    title: "The best online shopping experience I've had",
+    text: "Not just the products (which are stunning) but the entire experience — the packaging, the handwritten note, the quality of everything. My handpainted mug arrived in perfect condition and the botanical illustration is even more detailed in person. I drink my morning tea from it every day.",
+    date: "March 18, 2025",
+    productName: "Handpainted Ceramic Mug",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&q=80",
+    verified: true
+  },
+  {
+    id: "r6",
+    customerName: "Tom A.",
+    location: "Seattle, WA",
+    rating: 5,
+    title: "Gifted the candle set — she cried happy tears",
+    text: "Bought the Sage & Lavender candle as a birthday gift for my partner. The packaging is elegant and the candle itself smells incredible. She said it's the best candle she's ever had. We're already planning to order the botanical set next. This is now my go-to for meaningful gifts.",
+    date: "February 14, 2025",
+    productName: "Sage & Lavender Candle",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+    verified: true
+  },
+  {
+    id: "r7",
+    customerName: "Amara K.",
+    location: "Atlanta, GA",
+    rating: 5,
+    title: "My wall hanging is a conversation starter every time",
+    text: "The dried pampas wall hanging transformed my bedroom. It arrived beautifully packaged and looked exactly like the photos. Everyone who visits asks where I got it. The craftsmanship is evident — the arrangement is artful and nothing has shed or broken. Highly recommend.",
+    date: "March 1, 2025",
+    productName: "Dried Pampas Wall Hanging",
+    verified: true
+  }
+];
+export {
+  reviews as r
+};
