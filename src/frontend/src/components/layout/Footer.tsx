@@ -157,24 +157,27 @@ export function Footer() {
       {/* Bottom */}
       <div className="border-t border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="font-body text-xs text-muted-foreground">
-            © {year}. Built with{" "}
-            <Heart
-              size={10}
-              className="inline-block fill-primary text-primary mx-1"
-            />{" "}
-            using{" "}
+          <p className="font-body text-xs text-muted-foreground text-center sm:text-left">
+            © {year} Artisan &amp; Co. All rights reserved.
+          </p>
+          <p className="font-body text-xs text-muted-foreground text-center sm:text-right">
+            Designed &amp; Developed by{' '}
             <a
-              href={utmLink}
+              href="https://sage-meringue-21784f.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-smooth underline underline-offset-2"
             >
-              caffeine.ai
-            </a>
-          </p>
-          <p className="font-body text-xs text-muted-foreground">
-            Handcrafted goods, honestly made.
+              Jay Patel
+            </a>{' '}
+            (<a
+              href="https://envirgalaxy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-smooth underline underline-offset-2"
+            >
+              EnvirGalaxy Consultancy
+            </a>)
           </p>
         </div>
       </div>
