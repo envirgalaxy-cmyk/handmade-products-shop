@@ -163,7 +163,7 @@ export function Footer() {
           <p className="font-body text-xs text-muted-foreground text-center sm:text-right">
             Designed &amp; Developed by{' '}
             <a
-              href="https://sage-meringue-21784f.netlify.app"
+              href="https://jayy-patel.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground transition-smooth underline underline-offset-2"
