@@ -169,7 +169,7 @@ export function Footer() {
               className="hover:text-foreground transition-smooth underline underline-offset-2"
             >
               Jay Patel
-            </a>{' '}
+            </a>{' '} 👾 {' '}
             (<a
               href="https://envirgalaxy.com/"
               target="_blank"
